@@ -18,6 +18,27 @@ class ButtomPage extends StatelessWidget {
           )
         ],
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Color.fromRGBO(55, 57, 84, 1.0),
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
+        unselectedItemColor: Color.fromRGBO(116, 117, 152, 1.0),
+        selectedItemColor: Colors.pink,
+        items: <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.calendar_today,size: 30.0),
+            label: ''
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.bar_chart_sharp,size: 30.0),
+            label: ''
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.supervised_user_circle,size: 30.0),
+            label: ''
+          )
+        ],
+      ),
     );
   }
 
